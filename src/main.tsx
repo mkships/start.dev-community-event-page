@@ -12,7 +12,7 @@ function App() {
         </p>
 
         <section className="mt-8">
-            <h2 className="text-xl font-semibold">Event details</h2>
+            <h2 className="text-xl font-semibold">Event Details</h2>
 
             <p className="mt-3">
               <strong>When:</strong> Sunday, November 15, 2026 · 8:00 – 10:00 AM
@@ -22,6 +22,28 @@ function App() {
               <strong>Where:</strong> Riverside Community Courts · 24 Park Lane
             </p>
         </section>
+
+        <section className="mt-8">
+            <h2 className="text-xl font-semibold">Event Agenda</h2>
+            <ul className="mt-3 space-y-4">
+              <li>
+                <strong>8:00–8:15 AM:</strong> Welcome & warm-up — Meet the group, stretch, and get ready to play.
+              </li>
+
+              <li>
+                <strong>8:15–8:30 AM:</strong> Pickleball basics — Practice serving and learn the scoring rules.
+              </li>
+
+              <li>
+                <strong>8:30–9:45 AM:</strong> Friendly doubles — Rotate partners and enjoy relaxed games.
+              </li>
+
+              <li>
+                <strong>9:45-10:00 AM:</strong> Cool-down & connections — Stretch, chat, and wrap up the morning.
+              </li>
+            </ul>
+        </section>
+
     </main>
   );
 }
