@@ -3,7 +3,7 @@ import "./styles.css"
 
 function App() {
   return (
-    <main className="max-w-2xl mx-auto p-6">
+    <main className="max-w-2xl mx-auto px-4 py-6 sm:px-6">
       <h1 className="text-3xl font-bold">Rally & Connect</h1>
       <p className="mt-4 text-lg leading-relaxed">
         Join your neighbors for a relaxed morning of pickleball, friendly
@@ -26,19 +26,11 @@ function App() {
         <p className="mt-4">
           <a
             href="mailto:rsvp@rallyandconnect.com" 
-            className="font-semibold text-green-700 underline"
+            className="inline-block rounded-lg bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800"
           >
             RSVP for joyful dinks
           </a>
         </p>
-
-        <button 
-          type="button"
-          onClick={() => window.print()}
-          className="mt-4 rounded-lg bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800"
-        >
-          Print this event page
-        </button>
         
       </section>
 
